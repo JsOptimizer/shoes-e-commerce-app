@@ -1,6 +1,16 @@
-# Welcome to your Expo app 👋
+# ShoesStore - Mobile E-commerce App 👟
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern mobile e-commerce application built with [Expo](https://expo.dev) for shopping shoes. This app provides a seamless shopping experience with features like product browsing, detailed product views, cart management, and secure checkout.
+
+## Key Features
+
+- Browse through an extensive collection of shoes
+- Filter products by category, size, and price
+- Detailed product views with high-quality images
+- Shopping cart functionality
+- User authentication and profile management
+- Secure payment integration
+- Order tracking
 
 ## Get started
 
@@ -25,6 +35,16 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+## Project Structure
+
+The app is organized using [file-based routing](https://docs.expo.dev/router/introduction) within the **app** directory:
+
+- `/app/products` - Product listing and details
+- `/app/cart` - Shopping cart management
+- `/app/auth` - User authentication screens
+- `/app/profile` - User profile and settings
+- `/app/orders` - Order history and tracking
+
 ## Get a fresh project
 
 When you're ready, run:
@@ -34,6 +54,14 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Tech Stack
+
+- Expo SDK
+- React Native
+- Redux for state management
+- Expo Router for navigation
+- Stripe for payments
 
 ## Learn more
 
