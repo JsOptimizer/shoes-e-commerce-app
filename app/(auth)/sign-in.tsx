@@ -5,7 +5,7 @@ import FormField from "@/components/form-field";
 import CustomBtn from "@/components/CustomBtn";
 import googleIcon from "@/assets/icons/Group 108.png";
 import arrowIcon from "@/assets/icons/Arrow.png";
-import { Link } from "expo-router";
+import { Link, router } from "expo-router";
 
 type Props = {};
 
@@ -52,6 +52,7 @@ const SignIn = (props: Props) => {
                   title="Sign In"
                   containerStyle="items-center"
                   textStyle="font-bold"
+                  handlePress={() => router.push("/(tabs)")}
                 />
                 <CustomBtn
                   title="Sign in with google"

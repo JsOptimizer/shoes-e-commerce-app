@@ -3,7 +3,7 @@ import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import CustomBtn from "@/components/CustomBtn";
 import FormField from "@/components/form-field";
-import { Link } from "expo-router";
+import { Link, router } from "expo-router";
 import googleIcon from "@/assets/icons/Group 108.png";
 import arrowIcon from "@/assets/icons/Arrow.png";
 
@@ -45,6 +45,7 @@ const SignUp = (props: Props) => {
                   title="Sign In"
                   containerStyle="items-center"
                   textStyle="font-bold"
+                  handlePress={() => router.push("/(tabs)")}
                 />
                 <CustomBtn
                   title="Sign in with google"
